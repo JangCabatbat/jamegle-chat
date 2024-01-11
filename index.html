@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jamegle - Chat with People of Similar Interests</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="video-container">
+            <video id="local-video" autoplay playsinline></video>
+            <video id="remote-video" autoplay playsinline></video>
+        </div>
+        <div id="chat-container">
+            <div id="messages"></div>
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-button">Send</button>
+        </div>
+        <div id="interest-container">
+            <input type="text" id="interest-input" placeholder="Enter your interest...">
+            <button id="find-match-button">Find Match</button>
+        </div>
+        <div id="controls">
+            <button id="start-button">Start</button>
+            <button id="stop-button">Stop</button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
